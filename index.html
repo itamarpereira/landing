@@ -1,69 +1,107 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>My landing page</title>
-  <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
-  <!-- We need this line below for responsiveness! -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <!-- code a Hero / Banner section -->
-  <div class="banner">
-    <div class="container">
-      <h1>The most important thing should be said here</h1>
-      <p>A little description...</p>
-      <a class="btn-red" href="https://www.linkedin.com/in/itamar-gon%C3%A7alves-pereira-451aa3115/">Nice button!</a>
-    </div>
-  </div>
-  <!-- code a "How it works" section -->
-  <div class="container-top">
-    <div class="card-category" style="
-      background-image: url(https://source.unsplash.com/random);">
-      <h2>CATEGORY</h2>  
-    </div>    
-  </div>
+  <head>
+    <meta charset="UTF-8">
+    <!-- Need to read device screen width (Bootstrap) -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- We need this line below for responsiveness! -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KIS for PETS</title>
+    <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
 
-  <div class="container">
-    <h2 class="text-center">How it works</h2>
-    <div class="cards">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Varela">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
 
-      <div class="card">
-        <img src="images/apply.svg" alt="">
-        <h4>Apply</h4>
-        <p>Lorem ipsum dolor sit amet.</p>
+    <!-- Fontawesome CSS -->
+    <!-- It's already on style.css -->
+
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body cz-shortcut-listen="true">
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <!-- Hero / Banner section -->
+        <div class="banner">
+          <div class="container-ban">
+            <h1>KIS for PETS</h1>
+            <p><strong>Keep It Simple</strong> Careing for your pets just got better!</p>
+            <a class="btn-gradient" href="https://www.linkedin.com/in/itamar-gon%C3%A7alves-pereira-451aa3115/">KIS!</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-10">
+        <!-- "How it works" section -->
+        <div class="container">
+          <h2 class="text-center">How it works</h2>
+
+          <div class="cards">
+  
+            <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/what.jpg)">
+              <p>Health is the number 1 priority</p>
+              <h4>Medical record</h4>
+            </div>
+
+            <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/sleep.jpg)">
+              <h4>Community</h4>
+              <p>A strong community makes everything easier. Here you will chat with a lot of pet owners just like you 😍</p>
+            </div>
+      
+            <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/mimi.jpg)">
+              <h4>Location</h4>
+              <p>It's all about finding the best place close to you 👌</p>
+            </div>
+      
+            <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/attention.png)">
+              <h4>Sugestions?</h4>
+              <p>This is the place to improve the app</p>
+            </div>
+  
+          </div>
+
+          <h2 class="text-center">Some other features in construction...</h2>
+
+          <div class="cards-other">
+  
+            <div class="card-other" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/astronaut-2.jpg)">
+              <h4>Pet boarding</h4>
+              <p>Your pet's vacation!</p>
+            </div>
+
+            <div class="card-other" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/playing.jpg)">
+              <h4>...</h4>
+            </div>
+      
+            <div class="card-other" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/close.jpg)">
+              <h4>Talk to a Vet</h4>
+            </div>
+      
+            <div class="card-other" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/park.jpg)">
+              <h4>FAQ</h4>
+            </div>
+  
+          </div>
+
+
+        </div>
       </div>
 
-      <div class="card">
-        <img src="images/learn.svg" alt="">
-        <h4>Learn to code</h4>
-        <p>Lorem ipsum dolor sit amet.</p>
-      </div>
-
-      <div class="card">
-        <img src="images/product.svg" alt="">
-        <h4>Build products</h4>
-        <p>Lorem ipsum dolor sit amet.</p>
-      </div>
-
+      <div class="col-12">
+        <!-- footer -->
+        <div class="footer">
+          <div class="links">
+            <a href="https://www.facebook.com/itamar.tororopereira/" target="_blank">
+            <i class="fab fa-fw fa-facebook-f"></i></a>
+            <a href="https://github.com/itamarlewagon/profile" target="_blank">
+            <i class="fab fa-fw fa-github"></i></a>
+            <a href="https://www.instagram.com/i_toros/">
+            <i class="fab fa-fw fa-instagram"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=16473255884&amp;text=Olá, Itamar" target="_blank">
+            <i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+            <p>This website was coded at Le Wagon.</p>
+          </div>
+        </div>
+      </div>      
     </div>
-  </div>
-
-  <!-- code a footer -->
-  <div class="footer">
-    <div class="links">
-      <a href="https://www.facebook.com/itamar.tororopereira/" target="_blank">
-      <i class="fab fa-fw fa-facebook-f"></i></a>
-      <a href="https://github.com/itamarlewagon/profile" target="_blank">
-      <i class="fab fa-fw fa-github"></i></a>
-      <a href="https://www.instagram.com/i_toros/">
-      <i class="fab fa-fw fa-instagram"></i></a>
-      <a href="https://api.whatsapp.com/send?phone=16473255884&amp;text=Olá, Itamar" target="_blank">
-      <i class="fab fa-whatsapp" aria-hidden="true"></i></a>
-      <p>This website was coded at Le Wagon.</p>
-    </div>
-  </div>
-
-</body>
+  </body>
 </html>
