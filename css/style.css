@@ -1,5 +1,6 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
 
 /* Fontawesome */
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
@@ -13,6 +14,7 @@
 /* Utilities */
 body {
   display: block;
+  background-color: rgb(193, 237, 255);
   margin: 0;
   font-family: Open Sans;
 }
@@ -37,6 +39,9 @@ a {
 }
 
 .container {
-  width: 900px;
   margin: auto;
+}
+
+.container h2 {
+  margin-top: 8px;
 }
