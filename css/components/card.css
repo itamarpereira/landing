@@ -20,7 +20,7 @@
 
 .cards a:hover {
   text-decoration: none;
-  opacity: 0.8;
+  opacity: 0.3;
   color: rgb(255, 252, 64);
 }
 
