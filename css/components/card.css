@@ -18,6 +18,12 @@
   }
 }
 
+.cards a:hover {
+  text-decoration: none;
+  opacity: 0.8;
+  color: rgb(255, 252, 64);
+}
+
 .cards-other {
   align-items: center;
   padding: 8px;
